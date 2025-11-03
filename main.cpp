@@ -1,6 +1,8 @@
 #include <iostream>
 #include <map>
 #include <vector>
+#include <tuple>
+#include <string>
 using namespace std;
 
 int main() {
@@ -19,7 +21,7 @@ int main() {
         cout << pair.first << ": ";
         for (auto color : pair.second)
             cout << color << " ";
-        cout << endl
+        cout << endl;
     }
 
     // access the map using iterators
