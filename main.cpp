@@ -19,7 +19,7 @@ int main() {
         cout << pair.first << ": ";
         for (auto color : pair.second)
             cout << color << " ";
-        cout << endl;
+        cout << endl
     }
 
     // access the map using iterators
